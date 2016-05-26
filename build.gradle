@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+dependencies {
+    // http://mvnrepository.com/artifact/org.rapidoid/rapidoid-http-fast
+    compile group: 'org.rapidoid', name: 'rapidoid-quick', version: '5.1.4'
+}
+
+allprojects {
+    repositories {
+        maven{ url 'http://repo.maven.apache.org/maven2'}
+    }
+}
