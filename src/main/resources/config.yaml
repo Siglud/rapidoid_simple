@@ -1,0 +1,7 @@
+hibernate:
+  dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+  connection:
+    driver_class: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.13:3306/acgeek?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
