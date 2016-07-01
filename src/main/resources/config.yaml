@@ -1,3 +1,16 @@
+on:
+  port: 8888
+  address: 0.0.0.0
+
+admin:
+  port: same
+  address: 0.0.0.0
+
+app:
+  domain: ''
+  brand: App
+  search: false
+
 hibernate:
   dialect: org.hibernate.dialect.MySQL57InnoDBDialect
   connection:
@@ -5,3 +18,10 @@ hibernate:
     url: jdbc:mysql://192.168.0.13:3306/acgeek?useUnicode=true&characterEncoding=utf8
     username: root
     password: root
+
+users:
+  root:
+    roles:
+      - administrator
+      - owner
+    password: 'hohoho'
